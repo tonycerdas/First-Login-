@@ -25,14 +25,14 @@
 
 .title {
     margin-top: 5vh;
-    font-size: 3vw;
+    font-size: 6vmin;
 }
 
 .inputs label {
     display: flex;
     justify-content: normal;
     margin-top: 5vh;
-    font-size: 1.2vw;
+    font-size: 3vmin;
     color:rgb(182, 182, 182)
 }
 
@@ -56,6 +56,11 @@
     text-align-last: center;
     border-radius: 1vw;
     border: none;
+    background-size: 1.5vw;
+}
+
+input::placeholder{
+    font-size: 2vmin;
 }
 
 .email input {
@@ -75,7 +80,7 @@ button {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 113, 1) 35%, rgba(0, 212, 255, 1) 100%);
     border: none;
     color: white;
-    font-size: 1.6vw;
+    font-size: 3vmin;
 }
 
 .social-media {
@@ -91,6 +96,7 @@ button {
     min-width: 4.5vw;
     margin: 1vw;
     background-repeat: no-repeat;
+    background-size: 4vw;
 }
 .facebook{
     background: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-facebook_-50.png);
