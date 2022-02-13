@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    -webkit-box-shadow: -2px 5px 102px 30px rgba(230, 230, 230, 0.51);
+    -moz-box-shadow: -2px 5px 102px 30px rgba(230, 230, 230, 0.51);
+    box-shadow: -2px 5px 102px 30px rgba(230, 230, 230, 0.51);
+    border-radius: 2vw;
+    width: 30vw;
+    height: 80vh;
+    margin-top: 10%;
+}
+
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+
+.title {
+    margin-top: 5vh;
+    font-size: 3vw;
+}
+
+.inputs label {
+    display: flex;
+    justify-content: normal;
+    margin-top: 5vh;
+    font-size: 1.2vw;
+    color:rgb(182, 182, 182)
+}
+
+.email, .password {
+    display: flex;
+    flex-direction: column;
+}
+
+.email input,
+.password input {
+    -webkit-box-shadow: -2px 0px 25px 7px rgba(230, 230, 230, 0.51);
+    -moz-box-shadow: -2px 0px 25px 7px rgba(230, 230, 230, 0.51);
+    box-shadow: -2px 0px 25px 7px rgba(230, 230, 230, 0.51);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    width: 25vw;
+    height: 6vh;
+    margin-left: 0.5vw;
+    margin-top: 2vh;
+    text-align-last: center;
+    border-radius: 1vw;
+    border: none;
+}
+
+.email input {
+    background-image: url(https://cdn4.iconfinder.com/data/icons/round-mobile-ui-set/512/letter-message-email-mail-20.png);
+}
+
+.password input {
+    background-image: url(https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_password-20.png);
+}
+
+button {
+    margin-top: 10%;
+    width: 48%;
+    height: 6vh;
+    border-radius: 5vw;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 113, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border: none;
+    color: white;
+    font-size: 1.6vw;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 6vh;
+    margin-left:4%;
+}
+
+.social-media div {
+    min-height: 4.5vw;
+    min-width: 4.5vw;
+    margin: 1vw;
+    background-repeat: no-repeat;
+}
+.facebook{
+    background: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-facebook_-50.png);
+}
+.instagram{
+    background: url(https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-50.png);
+}
+.twitter{
+    background: url(https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-50.png);
+}
