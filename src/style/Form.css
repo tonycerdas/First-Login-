@@ -64,7 +64,7 @@ input::placeholder{
 }
 
 .email input {
-    background-image: url(https://cdn4.iconfinder.com/data/icons/round-mobile-ui-set/512/letter-message-email-mail-20.png);
+    background-image: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-email-512.png);
 }
 
 .password input {
@@ -81,6 +81,12 @@ button {
     border: none;
     color: white;
     font-size: 3vmin;
+}
+
+button:hover{
+    cursor: pointer;
+    background: rgb(200, 199, 206);
+    background: linear-gradient(90deg, rgb(179, 179, 179) 0%,rgb(179, 179, 179) 35%, rgb(179, 179, 179) 100%);
 }
 
 .social-media {
